@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tableau HTML</title>
+    <style>
+        table {
+            font-family: Arial, Helvetica, sans-serif;
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px auto;
+            font-size:0.8em;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 3px 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        .data-grey {
+            background-color: #d0d0d0;
+        }
+    </style>
+</head>
+<body>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Critères</th>
+                <th>Indicateurs</th>
+                <th>Sous-indicateurs</th>
+                <th>Pondération</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1. Respect des consignes et conformité à la production attendue</td>
+                <td>Respect du cahier des charges</td>
+                <td><input type="checkbox" > Tout le contenu est présent (informations, titres, textes, poduits demandés, logo…)</td>
+                <td>OUI   –   NON</td>
+            </tr>
+
+            <tr>
+                <td rowspan="8">2. Qualité technique</td>
+                <td rowspan="2" class="data-grey"><strong>Modélisation 3D</strong></td>
+                <td class="data-grey"><input type="checkbox"  ><strong> Modélisation de la boîte, de la bouteilles et des ingrédients sont précis </strong></td>
+                <td rowspan="2" class="data-grey"><strong>OUI   –   NON</strong></td>
+            </tr>
+
+            <tr>
+                <td class="data-grey"><input type="checkbox"><strong> Lumières, ombres et composition</strong></td>
+                
+            </tr>
+
+            <tr>
+                <td>Textures</td>
+                <td><input type="checkbox" > Placement des textures est correct</td>
+                <td>OUI   –   NON</td>
+            </tr>
+
+            <tr>
+                <td>Rought instrument</td>
+                <td><input type="checkbox">3 propositions différentes et originales</td>
+                <td>OUI   –   NON</td>
+            </tr>
+
+            <tr>
+                <td>Layout instrument</td>
+                <td><input type="checkbox"> Créativité et maîtrise de la mise au net</td>
+                <td>OUI   –   NON</td>
+            </tr>
+            
+           <tr>
+                <td>Layout Front  top side</td>
+                <td><input type="checkbox">3 vues correctes et proportionnelles</td>
+                <td>OUI   –   NON</td>
+            </tr>
+            
+        	 <tr>
+                <td>Rought Composition Affiche</td>
+                <td><input type="checkbox">3 propositions différentes et originales. Équilibre de la mise en page. Hiérarchisation des éléments</td>
+                <td>OUI   –   NON</td>
+            </tr>
+            
+
+            <tr>
+                <td>Précision</td>
+                <td><input type="checkbox" > Logo, étiquette, packaging, Reel Insta et web : pas d’éléments superflus, fichier précis</td>
+                <td>OUI   –   NON</td>
+            </tr>
+
+            <tr>
+                <td rowspan="4">3. Qualité esthétique</td>
+                
+                <td colspan="2">Qualité de mise en page des fiches (recherches et justifications)</td>
+                <td>OUI   –   NON</td>
+            </tr>
+
+            <tr>
+                <td rowspan="3" class="data-grey"><strong>Mise en page Affiche </strong></td>
+                 <td class="data-grey"><input type="checkbox"><strong>Habillage graphique adapté au sujet (Style et thème)</strong></td>
+                <td rowspan="3" class="data-grey"><strong>OUI   –   NON</strong></td>
+            </tr>
+
+            <tr>
+                 <td class="data-grey"><input type="checkbox"><strong>Équilibre de la composition</strong></td>
+            </tr>
+
+            <tr>
+                 <td class="data-grey"><input type="checkbox"><strong>Harmonie des couleurs</strong></td>
+            </tr>
+
+            
+            <tr>
+                <td rowspan="4">4. Qualité d’analyse</td>
+                <td colspan="2">Pertience et composition du Moodboard</td>
+                <td>OUI – NON</td>
+            </tr>
+
+            <tr>
+                <td colspan="2">Pertinence des éléments présentés dans l’analyse  </td>
+                <td>OUI – NON</td>
+            </tr>
+
+            <tr>
+                <td colspan="2">Vocabulaire adéquat au travers des justifications. </td>
+                <td>OUI   –   NON</td>
+            </tr>
+
+            <tr>
+                <td colspan="2" class="data-grey"><strong>Justification pertinente des choix graphiques</strong></td>
+                <td class="data-grey"><strong>OUI   –   NON</strong></td>
+            </tr>
+
+            <tr>
+                <td>Décision</td>
+                <td colspan="2">Réussite    –    Echec</td>
+                <td>/20</td>
+            </tr>
+
+            
+        </tbody>
+    </table>
+
+</body>
+</html>
